@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+
+html, body {
+    min-height: 100%;
+    }
+
+.cartas{
+    width: 111.5px;
+    height: 168.83px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#Oponente{
+    margin-top: 20px;
+    position: relative;
+    top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#Jogador{
+    margin-bottom: 20px;
+    position: relative;
+    top: 320px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+#hud{
+ min-height: 100%;
+}

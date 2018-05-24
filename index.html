@@ -6,18 +6,28 @@
     <title>GRIMOS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="Cartas.js"></script>
     <script src="main.js"></script>
+    <script src="Cartas.js"></script>
 </head>
-<body>
-    <button id="Berk" onclick="Selecionar(Berk_tropa)"></button>
-    <button id="TrollSafira" onclick="Selecionar(TrollSafira_tropa)"></button>
-    <button id="OrfaFloresta" onclick="Selecionar(OrfaFloresta_tropa)"></button>
-    <br>
-    <br>
-    <br>
-    <button onclick="Atacar(Berk_tropa)">Atacar berk</button>
-    <button onclick="Atacar(TrollSafira_tropa)">Atacar Troll Safira</button>
-    <button onclick="Atacar(OrfaFloresta_tropa)">Atacar Orfa da Floresta</button>
-</body>
-</html>
+<button onclick="Mao()">Jogar</button><br><br>
+<img id="BherInimigo" onclick="Selecionar(Bherk_tropa_Inimigo)"class="cartas" src="Tropas/Bherk.jpg">
+<img id="TrollSafiraInimgo" onclick="Selecionar(TrollSafira_tropa_Inimigo)" class="cartas" src="Tropas/Troll_de_Safira.jpg">
+<img id="OrfaFlorestaInimigo" onclick="Selecionar(OrfaFloresta_tropa_Inimigo)" class="cartas" src="Tropas/Orfa_da_Floresta.jpg">
+    <div id="hud">
+        <div id="Oponente">
+         <!--   <img id="BherInimigo" onclick="Acao(Bherk_tropa_Inimigo)"class="cartas" src="Tropas/Bherk.jpg">
+            <img id="TrollSafiraInimgo" onclick="Acao(TrollSafira_tropa_Inimigo)" class="cartas" src="Tropas/Troll_de_Safira.jpg">
+            <img id="OrfaFlorestaInimigo" onclick="Acao(OrfaFloresta_tropa_Inimigo)" class="cartas" src="Tropas/Orfã_de_Feltres.jpg">
+         -->
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="Jogador">
+          <!--  <img id="TrollSafira" onclick="Acao(TrollSafira_tropa)" class="cartas" src="Tropas/Troll_de_Safira.jpg">
+            <img id="OrfaFloresta" onclick="Acao(OrfaFloresta_tropa)" class="cartas" src="Tropas/Orfã_de_Feltres.jpg">
+            <img id="Bherk" onclick="Acao(Bherk_tropa)" class="cartas" src="Tropas/Bherk.jpg"> -->
+        </div>
+    </div>
+    
+    </html>
